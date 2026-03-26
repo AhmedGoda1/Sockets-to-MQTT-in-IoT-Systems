@@ -28,7 +28,7 @@ To simulate multiple devices on one machine, we use **Localhost (127.0.0.1)** fo
 ### Execution
 1. Run the server: `python socket_server.py`
 2. Run the sensor: `python socket_sensor.py`
-
+![Socket Communication](<Screenshot 2026-03-26 105809.png>)
 
 ## Lab 2: Edge to Cloud (MQTT)
 
