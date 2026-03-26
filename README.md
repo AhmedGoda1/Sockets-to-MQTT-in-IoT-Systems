@@ -36,7 +36,7 @@ To simulate multiple devices on one machine, we use **Localhost (127.0.0.1)** fo
 * **Protocol:** MQTT (Publish/Subscribe)
 * **Broker:** `broker.emqx.io` (Public)
 * **Topic:** `savonia/iot/temperature` (or your unique topic)
-
+![MQTT screenShot](<Screenshot 2026-03-26 110744.png>)
 ---
 
 ## Lab 3: Full IoT Pipeline (Integration)
@@ -45,7 +45,7 @@ To simulate multiple devices on one machine, we use **Localhost (127.0.0.1)** fo
 1. **Sensor (`socket_sensor.py`)** generates data → sends via **Socket** to Edge.
 2. **Edge Device (`edge_device.py`)** receives data → forwards via **MQTT** to Cloud.
 3. **Cloud Subscriber (`mqtt_subscriber.py`)** receives data from Broker → displays output.
-
+![Full PipeLine](<Screenshot 2026-03-26 111420.png>)
 ### How to Run
 To run the full simulation on one machine:
 1. Open Terminal 1: `python mqtt_subscriber.py`
